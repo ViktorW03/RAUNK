@@ -1,7 +1,7 @@
 [project]
 name = "raunk"
 version = "0.1.0"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 # cpsy is shared across all projects on the pi (UV_PROJECT_ENVIRONMENT);
 # deps below aren't used by RAUNK but must stay declared here or `uv sync`
 # will uninstall them for whichever other project needs them.
