@@ -7,7 +7,7 @@ from gpiozero import MCP3008
 sensor = MCP3008(channel=0)
 
 DISTANCES_CM = range(10, 151, 10)
-SAMPLES_PER_STEP = 5
+SAMPLES_PER_STEP = 10
 SAMPLE_DELAY_S = 0.2
 OUTPUT_CSV = "distance_calibration.csv"
 
